@@ -1,0 +1,18 @@
+.card-style{
+    margin-bottom: 20px;
+}
+.style-card{
+    background: transparent!important;
+    box-shadow: 10px 10px 0 rgba(14, 14, 14, 0.40);
+}
+.home-style{
+    margin: 20px 10px;
+}
+.img-style{
+    width: 150px!important;
+    height: 150px;
+}
+.show-card{
+    display: flex!important;
+    justify-content: space-around!important;
+}

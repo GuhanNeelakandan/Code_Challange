@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body{
+    margin:0;
+    padding: 0;
+    font-size: 1em;
+    font-family: "Neutrif Pro";
+    background-color: #f2f0e4!important;
+}
+.card-style{
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.style-card{
+    background: transparent!important;
+    box-shadow: 10px 10px 0 rgba(14, 14, 14, 0.40);
+    width: 300px;
+    height: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-style{
+    width: 150px!important;
+    height: 150px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-style{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-style: italic;
+    padding-left: 0px;
 }
-
-.App-link {
-  color: #61dafb;
+.details-style{
+    height: 100px;
+    overflow: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover{
+    transform: scale(1.1);
+}
+li:hover{
+    transform: scale(1.1);
+}
+.yr-style{
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.rocket-details{
+    font-style: italic;
+    font-size: 15px;
+}
+.stage-style{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius:10px ;
+    overflow-y: scroll;
+    height: 400px;
+}
+p{
+    margin-bottom: 0px!important;
+}
+.page-link{
+    list-style-type: none!important;
+}
+.pagi-style{
+    display: inline-block;
+    justify-content: center!important;
+    
 }
